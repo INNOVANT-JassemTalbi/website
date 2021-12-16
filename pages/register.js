@@ -64,10 +64,11 @@ router.push('/login')
   <br></br>
     <div class="card-group">
   <div class="card">
-    <a href="/register">
+    <a href="/register" style={{ 
+          color: `#000000` }}>
     <div class="card-body">
     
-      <i class="fa fa-registered" href="/register"></i>
+      <i class="fa fa-registered" ></i>
       <h6 class="card-title">Register</h6>
       <p class="card-title">Browse and find what you need</p>
 
@@ -75,12 +76,13 @@ router.push('/login')
     </a>
   </div>
   <div class="card">
-  <a href="/login">
+  <a href="/login"  style={{ 
+          color: `#000000` }}>
 
     <div class="card-body">
       <i class="fas fa-sign-in-alt"></i>
       <h6 class="card-title">Login</h6>
-      <p class="card-title">already have an account, then welcom back</p>
+      <p class="card-title">already have an account, then welcome back</p>
 
 
     </div>

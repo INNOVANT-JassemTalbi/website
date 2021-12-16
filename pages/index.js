@@ -11,9 +11,7 @@ export default function Home() {
   return (
    
     <>
-    <Navbar></Navbar>
     <Register></Register>
-<Footer></Footer>
    </>
     
   )

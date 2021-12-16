@@ -22,7 +22,8 @@ function Navbar() {
             <nav class="navbar navbar-light bg-light justify-content-between" >
 <a class="navbar-brand"></a>
 <form class="form-inline">
-<a href="/login" onClick={logout}>logout</a>
+<a href="/login" onClick={logout}  style={{ 
+          color: `#000000` }}>logout</a>
 
 </form>
 </nav>
@@ -60,8 +61,10 @@ else{
 <a class="navbar-brand"></a>
 <form class="form-inline">
   <div class='login'>
-  <a href="/login">Login</a>
-<a href="/register">Register</a>
+  <a href="/login" style={{ 
+          color: `#000000` }}>Login</a>
+<a href="/register" style={{ 
+          color: `#000000` }}>Register</a>
   </div>
 
 </form>
